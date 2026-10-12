@@ -1,12 +1,14 @@
 {
-  "version": 1,
+  "version": 2,
   "title": "¿Frena o gira?",
+  "greeting": "Hola, soy Goku.",
+  "mascot": "Goku full body",
   "language": "es",
-  "duration": 68.693333,
+  "duration": 69.610667,
   "resolution": [
     1080,
     1920
   ],
   "voice": "AI-generated · goku-es-suave-v1",
-  "sha256": "872bfb7f148f80ba9c9510be22486a28d0abab99ea7c572e38d6de43b46f6726"
+  "sha256": "f1fbf7c345a0ef0207f338e8a5ce0bc620c10d29a24c237a09fb33e9e63969b6"
 }
