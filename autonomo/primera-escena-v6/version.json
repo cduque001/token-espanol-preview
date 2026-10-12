@@ -1,0 +1,10 @@
+{
+  "version": 6,
+  "duration_seconds": 9.088,
+  "approved_voice": "audio-v6, exact unchanged WAV",
+  "changes": [
+    "Approved slower greeting plus original body pace",
+    "Retimed phrase subtitles and lipsync",
+    "Channel background music"
+  ]
+}
