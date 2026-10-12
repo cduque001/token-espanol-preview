@@ -1,0 +1,26 @@
+{
+  "words": [],
+  "speaker_cos": 0.9919688879408196,
+  "lufs": -17.97944165739383,
+  "duration_s": 10.96,
+  "sample_rate": 24000,
+  "prompt_id": "9831a4d912b829f5",
+  "model": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+  "language": "Spanish",
+  "generation_seconds": 10.48,
+  "seed": 42,
+  "settings": {
+    "do_sample": true,
+    "temperature": 0.7,
+    "top_k": 50,
+    "top_p": 1.0,
+    "repetition_penalty": 1.05
+  },
+  "text": "Cuando le escribes a una inteligencia artificial, tu mensaje llega dividido en piezas. Se llaman tokens. Pero una pieza no siempre es una palabra. Mira lo que pasa con esta frase antes de que el modelo pueda trabajar con ella.",
+  "provenance": "AI-generated voice imitation using the user-provided Instagram reel as reference. Not an original actor recording or endorsement.",
+  "reference_url": "https://www.instagram.com/reel/Dd4pkJDvz_t/",
+  "reference_start_seconds": 38.2,
+  "reference_end_seconds": 47.72,
+  "reference_processing": "Vocal separation using Hybrid Demucs HDEMUCS_HIGH_MUSDB_PLUS, followed by mono 24 kHz conversion.",
+  "voice_quality": "Awaiting creator listening comparison; separation can leave residual noise or artifacts."
+}
