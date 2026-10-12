@@ -1,0 +1,10 @@
+{
+  "version": 5,
+  "duration_seconds": 10.752,
+  "changes": [
+    "Fresh continuous voice take at natural speed",
+    "Phrase subtitles with stable keyword emphasis",
+    "Mouth and gesture timing regenerated"
+  ],
+  "voice_generated": true
+}
