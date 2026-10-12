@@ -1,0 +1,38 @@
+{
+  "processing": {
+    "source": "../qwen-polished/smooth.wav",
+    "source_sha256": "77e4b437d37a65809842d324467cba08f8eb9d64f00b5dd1ee0d8262635f972c",
+    "tempo_multiplier": 1.2,
+    "pitch_preserved": true,
+    "ffmpeg_filter": "atempo=1.2,loudnorm=I=-16:TP=-1.5:LRA=11",
+    "basis": "config.yaml voice.speed=1.2, voice.synth_speed=1.0, voice.speed_mode=stretch, the Qwen Showman preset. Applies the same tempo setting; not a claim of identical words-per-second or expressive cadence across voices/languages.",
+    "paid_compute_cost_usd": 0,
+    "text": "Cuando le escribes a una inteligencia artificial, tu mensaje llega dividido en piezas. Se llaman tokens. Pero una pieza no siempre es una palabra. Mira lo que pasa con esta frase antes de que el modelo pueda trabajar con ella."
+  },
+  "qa": {
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 3.6,
+        "text": " Cuando le escribes a una inteligencia artificial, tu mensaje llega dividido en piezas."
+      },
+      {
+        "start": 3.6,
+        "end": 6.2,
+        "text": " Se llaman tokens, pero una pieza no siempre es una palabra."
+      },
+      {
+        "start": 6.2,
+        "end": 9.08,
+        "text": " Mira lo que pasa con esta frase antes de que el modelo pueda trabajar con ella."
+      }
+    ],
+    "duration_seconds": 9.112541666666667,
+    "peak_dbfs": -1.7947895526885986,
+    "clipped_samples": 0,
+    "spoken_text_match": true,
+    "expected_words": 40,
+    "recognized_words": 40
+  },
+  "provenance": "AI-generated Qwen narration with post-synthesis cleanup and smoothing, now using the Showman Qwen tempo multiplier. Not an actor recording or endorsement."
+}
