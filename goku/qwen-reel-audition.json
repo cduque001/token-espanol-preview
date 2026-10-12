@@ -1,0 +1,23 @@
+{
+  "words": [],
+  "speaker_cos": 0.9876323101362162,
+  "lufs": -18.11542941419649,
+  "duration_s": 10.72,
+  "sample_rate": 24000,
+  "model": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+  "language": "Spanish",
+  "generation_seconds": 10.78,
+  "seed": 42,
+  "settings": {
+    "do_sample": true,
+    "temperature": 0.7,
+    "top_k": 50,
+    "top_p": 1.0,
+    "repetition_penalty": 1.05
+  },
+  "text": "Cuando le escribes a una inteligencia artificial, tu mensaje llega dividido en piezas. Se llaman tokens. Pero una pieza no siempre es una palabra. Mira lo que pasa con esta frase antes de que el modelo pueda trabajar con ella.",
+  "provenance": "AI-generated voice imitation using the user-provided Instagram reel as reference. Not an original actor recording or endorsement.",
+  "reference_url": "https://www.instagram.com/reel/Dd4pkJDvz_t/",
+  "reference_start_seconds": 38.2,
+  "reference_end_seconds": 47.72
+}
