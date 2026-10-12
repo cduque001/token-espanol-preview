@@ -1,0 +1,11 @@
+{
+  "version": "opener-v3",
+  "duration_s": 8.618667,
+  "resolution": [
+    1080,
+    1920
+  ],
+  "sha256": "6d804e6b5fd5787ca0cf8e50ec1d9c3b7c365093d5cdcec8894b74626c1ef6c8",
+  "voice": "AI-generated goku-es-suave-v1",
+  "scope": "first scene only"
+}
