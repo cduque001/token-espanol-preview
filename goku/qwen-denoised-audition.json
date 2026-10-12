@@ -1,0 +1,51 @@
+{
+  "variant": "denoised",
+  "source": "qwen-clean-audition.mp3",
+  "provenance": "AI-generated Qwen narration, now post-processed locally. Not an original actor recording or endorsement.",
+  "processing": {
+    "source": "../qwen-clean-reference/qwen-sample.wav",
+    "source_sha256": "48d5ee728cb28d70cfa9f669d01b1c33cd504ef212a93d45e7dc08fb1943ac1c",
+    "method": "Post-processing of the existing Qwen audition; no resynthesis, pitch shift or speed change.",
+    "denoiser": "DeepFilterNet3 ONNX with deep-filter v0.5.6, local CPU",
+    "denoiser_source": "https://github.com/Rikorose/DeepFilterNet",
+    "runtime_sha256": "70775e251eee44c0f2451a1e833326cf8bcbbe304d3e7cd12851e6fce72ef7da",
+    "model_sha256": "c94d91f70911001c946e0fabb4aa9adc37045f45a03b56008cb0c8244cb63616",
+    "attenuation_limit_db": 24,
+    "compensate_delay": true,
+    "input_tail_padding_seconds": 0.1,
+    "post_filter": false,
+    "ffmpeg_filters": {
+      "denoised": "atrim=duration=10.96,asetpts=PTS-STARTPTS",
+      "smooth": "atrim=duration=10.96,asetpts=PTS-STARTPTS,highpass=f=65,equalizer=f=3300:t=q:w=0.8:g=-2,equalizer=f=6500:t=q:w=0.7:g=-1.5,acompressor=threshold=0.126:ratio=1.5:attack=15:release=120:knee=2.828:makeup=1"
+    },
+    "loudness_target_lufs": -16,
+    "true_peak_target_db": -1.5,
+    "paid_compute_cost_usd": 0,
+    "quality_note": "Conservative cleanup and tonal smoothing. Human listening comparison is required to judge residual noise, artifacts and character."
+  },
+  "qa": {
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 4.28,
+        "text": " Cuando le escribes a una inteligencia artificial, tu mensaje llega dividido en piezas."
+      },
+      {
+        "start": 4.28,
+        "end": 7.42,
+        "text": " Se llaman tokens, pero una pieza no siempre es una palabra."
+      },
+      {
+        "start": 7.42,
+        "end": 10.92,
+        "text": " Mira lo que pasa con esta frase antes de que el modelo pueda trabajar con ella."
+      }
+    ],
+    "duration_seconds": 10.96,
+    "peak_dbfs": -1.7608399391174316,
+    "clipped_samples": 0,
+    "spoken_text_match": true,
+    "expected_words": 40,
+    "recognized_words": 40
+  }
+}
